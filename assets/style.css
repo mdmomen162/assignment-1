@@ -1,3 +1,4 @@
+/* header-style */
 .header {
     /* display: flex; */
     width: 1600px;
@@ -7,12 +8,10 @@
     background-image: url(../images/banner/banner2.png);
 }
 
+
+/* header-banner-style */
 .header-banner {
-    /* margin-left: 874px; */
-    /* margin-top: 216px; */
     padding-top: 216px;
-    /* padding-left: 874px; */
-    /* padding-right: 230px; */
 }
 
 .banner-title {
@@ -23,14 +22,12 @@
     text-align: right;
     color: #151414;
     padding-left: 845px;
-    /* padding-top: 216px; */
     padding-right: 230px;
 }
 
 .banner-description {
     font-weight: 400;
     font-size: 16px;
-    /* line-height: 26px; */
     text-align: right;
     color: #444343;
     padding-left: 876px;
@@ -47,11 +44,13 @@
 
 }
 
+
 /* main-section */
 .main {
     max-width: 1072px;
     margin-top: 130px;
 }
+
 
 /* failure-section */
 .failure {
@@ -63,13 +62,9 @@
     gap: 84px;
     margin-left: 206px;
 }
-
-.failure-image {}
-
 .failure-content {
     margin-top: 240px;
 }
-
 .failure-title {
     font-weight: 700;
     font-size: 40px;
@@ -79,25 +74,21 @@
     width: 288px;
     height: 94px;
 }
-
 .failure-description {
     ont-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #444343;
-
 }
-
 ul li:before {
     content: "\2713";
     color: green;
     font-weight: bold;
     /* padding-right: 10px; */
 }
-
 li {
     list-style: none;
-    width: 315px;
+    width: 400px;
     height: 26px;
     font-weight: 400;
     font-size: 16px;
@@ -105,13 +96,47 @@ li {
     color: #444343;
 }
 
+
+/* ways-to-manage-failure */
+.manage-failure {
+    width: 1000px;
+    height: 450px;
+    margin-top: 180px;
+    margin-left: 250px;
+    margin-right: 130px;
+    background-color: cadetblue;
+}
+.manage-failure-main {
+    display: flex;
+    gap: 180px;
+}
+.manage-failure-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    text-align: right;
+    width: 350px;
+    height: 94px;
+    margin-bottom: 70px;
+}
+ol li{
+    width: 500px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #444343;
+    list-style: numbers;
+}
+
+
 /* plan-section */
 .plan {
     width: 1141px;
     height: 299.96px;
     margin-top: 130px;
 }
-
 .plan-title {
     margin-left: 710px;
     margin-bottom: 50px;
@@ -120,16 +145,13 @@ li {
     line-height: 47px;
     color: #151414;
 }
-
 .plan-main {
     display: flex;
     margin-left: 200px;
 }
-
 .plan-content {
     margin-right: 50px;
 }
-
 .content-title {
     font-weight: 700;
     font-size: 30px;
@@ -139,7 +161,6 @@ li {
     width: 256px;
     height: 35px;
 }
-
 .content-description {
     font-weight: 500;
     font-size: 25px;
@@ -147,10 +168,10 @@ li {
     text-align: center;
     color: #737272;
 }
-
 .content-image {
     margin-left: 80px;
 }
+
 
 /* contact-section */
 .contact {
@@ -164,7 +185,6 @@ li {
     background-repeat: no-repeat;
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
 }
-
 .contact-title {
     padding: 60px 617px 0px 64px;
     font-weight: 700;
@@ -172,7 +192,6 @@ li {
     line-height: 47px;
     color: #FFFFFF;
 }
-
 .btn-secondary {
     background-color: white;
     width: 160px;
@@ -186,6 +205,7 @@ li {
     color: #F15B22;
 }
 
+
 /* footer-section */
 .footer-main {
     display: flex;
@@ -196,21 +216,18 @@ li {
     top: 2646.3px;
     background: #151414;
 }
-
 .footer-goal {
     padding-left: 230px;
     padding-top: 130px;
     /* padding-right: 885px; */
     padding-bottom: 130px;
 }
-
 .footer-title {
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
     color: #F8F8F8;
 }
-
 .footer-description {
     font-weight: 400;
     font-size: 16px;
@@ -219,28 +236,22 @@ li {
     width: 485px;
     height: 78px;
 }
-
 .footer-email {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
 }
-
 .footer-phone {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
 }
-
 .footer-connect {
     padding-left: 330px;
     padding-top: 130px;
 }
-
-.footer-title {}
-
 .footer-input {
     border: 1px solid #FFFFFF;
     border-radius: 8px;
@@ -249,7 +260,6 @@ li {
     width: 325px;
     height: 64px;
 }
-
 .btn-secondary2 {
     margin-right: 1000px;
     width: 170.11px;
