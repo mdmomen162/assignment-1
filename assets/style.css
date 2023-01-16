@@ -1,0 +1,152 @@
+.header {
+    /* display: flex; */
+    width: 1600px;
+    height: 809px;
+    left: 1600px;
+    top: 0px;
+    background-image: url(../images/banner/banner2.png);
+}
+
+.header-banner {
+    /* margin-left: 874px; */
+    /* margin-top: 216px; */
+    padding-top: 216px;
+    /* padding-left: 874px; */
+    /* padding-right: 230px; */
+}
+
+.banner-title {
+
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #151414;
+    padding-left: 845px;
+    /* padding-top: 216px; */
+    padding-right: 230px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 26px; */
+    text-align: right;
+    color: #444343;
+    padding-left: 876px;
+    padding-right: 230px;
+}
+
+.btn-primary {
+    width: 160px;
+    height: 64px;
+    margin-left: 1210px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    border: 0px;
+
+}
+
+/* main-section */
+.main {
+    max-width: 1072px;
+    margin-top: 130px;
+}
+
+/* failure-section */
+.failure {
+
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+    display: flex;
+    gap: 84px;
+    margin-left: 206px;
+}
+
+.failure-image {}
+
+.failure-content {
+    margin-top: 240px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    text-align: justify;
+    width: 288px;
+    height: 94px;
+}
+
+.failure-description {
+    ont-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+
+}
+
+ul li:before {
+    content: "\2713";
+    color: green;
+    font-weight: bold;
+    /* padding-right: 10px; */
+}
+
+li {
+    list-style: none;
+    width: 315px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/* plan-section */
+.plan {
+    width: 1141px;
+    height: 299.96px;
+    margin-top: 130px;
+}
+
+.plan-title {
+    margin-left: 710px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.plan-main {
+    display: flex;
+    margin-left: 200px;
+}
+
+.plan-content {
+    margin-right: 50px;
+}
+
+.content-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    width: 256px;
+    height: 35px;
+}
+
+.content-description {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+.content-image{
+    margin-left: 80px;
+}
